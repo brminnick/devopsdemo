@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{E6205F43-94B0-462C-AA5B-AE816794E95A}</ProjectGuid>
+    <TargetFrameworks>netcoreapp2.2</TargetFrameworks>
+    <AssemblyTitle>CSharpSeleniumWebdriverSample</AssemblyTitle>
+    <Product>CSharpSeleniumWebdriverSample</Product>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="SamplePage.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.9.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="1.4.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="1.4.0" />
+    <PackageReference Include="Selenium.Axe" Version="1.2.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="76.0.3809.12600" />
+    <PackageReference Include="Selenium.WebDriver.GeckoDriver" Version="0.24.0" />
+  </ItemGroup>
+</Project>
